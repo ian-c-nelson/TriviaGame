@@ -1,0 +1,15 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+/* base styles */
+* {
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    font-family: 'Audiowide', cursive;
+}
