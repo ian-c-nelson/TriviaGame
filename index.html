@@ -22,42 +22,48 @@
     </header>
     <div class="content">
         <div class="container text-center">
-            <div class="row timer justify-content-center mt-3">
+            <div class="row image justify-content-center hidden">
                 <div class="col-8">
-                    <div class="alert alert-secondary" role="alert">
-                        <h2>Time Remaining: <span id="timer-text"></span></h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row question justify-content-center">
-                <div class="col-8">
-                    <div class="card">
-                        <div class="card-header">
-                            <h3><span id="question-text"></span></h3>
-                        </div>
-                        <ul class="list-group list-group-flush answers">
-                            <li class="list-group-item" value="A">A: <span id="answer-a-text"></span></li>
-                            <li class="list-group-item" value="B">B: <span id="answer-b-text"></span></li>
-                            <li class="list-group-item" value="C">C: <span id="answer-c-text"></span></li>
-                            <li class="list-group-item" value="D">D: <span id="answer-d-text"></span></li>
-                        </ul>
-                    </div>
-
-                </div>
-            </div>
-            <div class="row image justify-content-center">
-                <div class="col-6">
                     <div class="card bg-dark text-white mt-3">
-                        <img class="card-img" src="" alt="">
+                        <img class="card-img" src="" alt="Animated Image">
                         <div class="card-img-overlay">
                             <h5 class="card-title"><span id="image-card-title"></span></h5>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row score">
+            <div class="row info justify-content-center mt-3">
+                <div class="col-8">
+                    <div class="alert alert-info" role="alert">
+                        <h2><span id="info-text"></span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row question justify-content-center hidden">
+                <div class="col-8">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3><span id="question-text"></span></h3>
+                        </div>
+                        <ul class="list-group list-group-flush answers">
+                            <li id="answer-a" class="list-group-item" value="">A: <span></span></li>
+                            <li id="answer-b" class="list-group-item" value="">B: <span></span></li>
+                            <li id="answer-c" class="list-group-item" value="">C: <span></span></li>
+                            <li id="answer-d" class="list-group-item" value="">D: <span></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row timer justify-content-center hidden">
+                <div class="col-8">
+                    <div class="alert alert-secondary" role="alert">
+                        <h2>Time Remaining: <span id="timer-text"></span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row score mt-3 hidden">
                 <div class="col">
-                    <h3>Score: <span id="question-text"></span></h3>
+                    <h3>Score: <span id="score-text"></span></h3>
                 </div>
             </div>
         </div>

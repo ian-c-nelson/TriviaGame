@@ -1,5 +1,5 @@
 /* fonts */
-@import url('https://fonts.googleapis.com/css?family=Audiowide');
+@import url('https://fonts.googleapis.com/css?family=Prosto+One|Audiowide');
 
 /* base styles */
 * {
@@ -10,6 +10,11 @@
     display: none;
 }
 
-body {
+header {
     font-family: 'Audiowide', cursive;
+}
+
+body {
+    font-family: 'Prosto One', cursive;
+    background-color: cadetblue;
 }
