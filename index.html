@@ -22,16 +22,6 @@
     </header>
     <div class="content">
         <div class="container text-center">
-            <div class="row image justify-content-center hidden">
-                <div class="col-8">
-                    <div class="card bg-dark text-white mt-3">
-                        <img class="card-img" src="" alt="Animated Image">
-                        <div class="card-img-overlay">
-                            <h5 class="card-title"><span id="image-card-title"></span></h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="row info justify-content-center mt-3">
                 <div class="col-8">
                     <div class="alert alert-info" role="alert">
@@ -54,16 +44,31 @@
                     </div>
                 </div>
             </div>
-            <div class="row timer justify-content-center hidden">
+            <div class="row timer mt-3 justify-content-center hidden">
                 <div class="col-8">
                     <div class="alert alert-secondary" role="alert">
-                        <h2>Time Remaining: <span id="timer-text"></span></h2>
+                        <div class="row">
+                            <div class="col-4 text-left">
+                                <h3>Correct: <span id="correct-text"></span></h3>
+                            </div>
+                            <div class="col-4">
+                                <h3>Incorrect: <span id="incorrect-text"></span></h3>
+                            </div>
+                            <div class="col-4">
+                                <h2>Time Remaining: <span id="timer-text"></span></h2>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row score mt-3 hidden">
-                <div class="col">
-                    <h3>Score: <span id="score-text"></span></h3>
+            <div class="row image justify-content-center">
+                <div class="col-8">
+                    <div class="card bg-dark text-white">
+                        <img class="card-img" src="" alt="Animated Image">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title"><span id="image-card-title"></span></h5>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

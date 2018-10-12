@@ -10,6 +10,24 @@
     display: none;
 }
 
+.bg-correct {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.bg-incorrect {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
 header {
     font-family: 'Audiowide', cursive;
 }
@@ -18,3 +36,8 @@ body {
     font-family: 'Prosto One', cursive;
     background-color: cadetblue;
 }
+
+ul.answers > li {
+    text-align: left;
+}
+
